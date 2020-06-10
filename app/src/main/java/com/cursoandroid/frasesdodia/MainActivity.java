@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTheme(R.style.ThemeOverlay_AppCompat_Dark);
         setContentView(R.layout.activity_main);
     }
 
@@ -20,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         String[] frases = {
                 "Frase 0",
-                "Frase 1",yyk//'    ,
+                "Frase 1",
                 "Frase 2",
                 "Frase 3"
         };
